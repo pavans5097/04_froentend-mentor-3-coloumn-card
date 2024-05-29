@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+section{
+    width: 305px;
+    box-sizing: border-box;
+    height: 500px;
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 40px;
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+}
+
+.luxary{
+    background-color:hsl(179, 100%, 13%) ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 40px;
+}
+
+section h1{
+    font-size: 2.45rem;
+    font-family: "Big Shoulders Display", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 30px 0;
+    color: hsl(0, 0%, 95%);
+}
+
+section p{
+    font-size: 16px;
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+}
+section button{
+    margin: 85px 0 0 0;
+    max-width: 140px;
+    font-size: 16px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    background-color:  hsl(0, 0%, 95%);
+    padding: 1rem 1.4rem;
+    box-sizing: border-box;
+    border-radius: 35px;
+    border: none;
+    
+}
+.luxary button{
+    color: hsl(179, 100%, 13%);
+}
+.sedan button{
+    color: hsl(31, 77%, 52%);
+}
+.suv button{
+    color: hsl(184, 100%, 22%);
+}
+
+

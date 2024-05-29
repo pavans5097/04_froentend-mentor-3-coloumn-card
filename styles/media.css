@@ -1,0 +1,38 @@
+@media (max-width:950px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 45px 0;
+    }
+    section{
+        width: 325px;
+        box-sizing: border-box;
+        height: 440px;
+    }
+   
+.sedan{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    padding: 40px;
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+}
+
+.luxary{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+    padding: 40px;
+}
+section button{
+    margin-top: 25px;
+}
+    
+    
+}
